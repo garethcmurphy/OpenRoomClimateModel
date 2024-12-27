@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "openroomclimatemodel"
+version = "0.1.0"
+description = ""
+authors = ["Gareth Murphy <16783958+garethcmurphy@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.2.1"
+matplotlib = "^3.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.3.1"
+pylint = "^3.3.3"
+flake8 = "^7.1.1"
+ruff = "^0.8.4"
+black = "^24.10.0"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
