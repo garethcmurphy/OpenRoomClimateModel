@@ -2,6 +2,8 @@
 
 Welcome to the **Edgeworth Box & Room Climate Stability** project! This project aims to simulate and visualize different aspects of room climate stability using the concept of the Edgeworth Box.
 
+![plot](./src/assets/climate_plot.png)
+
 ## 📚 About Edgeworth Box
 
 The **Edgeworth Box** is a fundamental concept in microeconomics used to show the distribution of resources and the efficiency of allocations between two parties. It helps in understanding how different allocations can lead to different levels of satisfaction for the parties involved.
@@ -48,13 +50,16 @@ python src/open_room_climate.py
 Running Tests
 To run the unit tests, use the following command:
 
-📊 Visualization
+## 📊 Visualization
+
 The project generates scatter plots to visualize the relationships between different climate factors. The plots are saved as climate_plot.png and displayed using Matplotlib.
 
-🤝 Contributing
+##  🤝 Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-📄 License
+## 📄 License
+
 This project is licensed under the MIT License.
 
 Feel free to explore the code and contribute to the project. Let's make room climates more stable and comfortable together! 🌟
