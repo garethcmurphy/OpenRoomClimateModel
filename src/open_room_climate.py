@@ -26,6 +26,7 @@ class ClimatePlotter:
         self._scatter_plot(axs[1, 1], 'atmospheric_climate', 'acoustic_climate', 'm', 'Atmospheric vs. Acoustic Climate')
 
         plt.tight_layout()
+        plt.savefig('climate_plot.png')
         plt.show()
 
     def _scatter_plot(self, ax, x_key, y_key, color, title):
